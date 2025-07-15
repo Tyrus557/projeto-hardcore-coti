@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 
 </head>
 <body id="inicio">
 
-    <div class="header">
+    <header class="header">
 
             <div class="container">
 
@@ -27,34 +29,34 @@
                     <div class="barra"></div>
                 </div>
 
-                <div class="menu">
+                <nav class="menu">
                     <a href="#inicio">Início</a>
                     <a href="#academia">Nossa Academia</a>
                     <a href="#planos">Planos</a>
                     <a href="#contato">Fale Conosco</a>
-                </div>
+                </nav>
 
             </div>
 
-    </div>
+    </header>
 
-    <div class="hero">
-        <div class="container">
+    <section class="hero">
+        <div class="container" data-aos="fade-up" data-aos-offset="0">
             <h1>o melhor crossfit da cidade está aqui!</h1>
             <p>Na HardCore, não buscamos apenas treinos; buscamos a força que existe dentro de você. Seja você um atleta experiente ou um iniciante, nossa academia é o lugar onde a paixão pelo fitness encontra a determinação para superar limites.</p>
             <a href="#planos" class="btn">ver planos</a>
 
         </div> 
-    </div>
+    </section>
 
-    <div class="academia" id="academia">
+    <section class="academia" id="academia">
         <div class="container">
         
-            <div class="=image">
+            <div class="=image" data-aos="fade-up-right">
                 <img src="img/aluna.webp" alt="">
             </div>
 
-            <div class="conteudo">
+            <div class="conteudo" data-aos="fade-up-left">
                 <h2>Nossa Academia</h2>
                 <p>Na HardCore CrossFit, não estamos aqui apenas para transformar corpos; estamos aqui para transformar vidas. Se você está pronto para abraçar o desafio, superar seus limites e descobrir o seu potencial máximo, você está no lugar certo. Nossos treinos são projetados para desafiar você a cada passo do caminho, seja você um novato ou um atleta experiente.</p>
                 <p> Nossa equipe de treinadores é apaixonada por ajudar você a alcançar seus objetivos. Com experiência em treinamento funcional e uma abordagem personalizada, nossos treinadores estão aqui para orientar, motivar e garantir que cada movimento seja feito com segurança e eficácia. Não espere, comece sua jornada hoje mesmo!</p>
@@ -62,29 +64,29 @@
 
         </div>
     
-    </div>
+    </section>
 
-    <div class="faca-parte">
+    <section class="faca-parte">
         <div class="container">
 
-            <div class="conteudo">
+            <div class="conteudo" data-aos="fade-left" data-aos-delay="200" data-aos-offset="0">
                 <h2>faça parte do time</h2>
                 <p>Na HardCore, oferecemos um ambiente de treino de classe mundial. Nossas instalações são equipadas com o que há de melhor em equipamentos de CrossFit, proporcionando o cenário ideal para o seu sucesso. Aqui, cada detalhe é pensado para maximizar sua experiência de treino. Venha fazer parte de uma comunidade que valoriza a dedicação, a disciplina e a determinação.</p>
             </div>
 
-            <div class="imagem">
+            <div class="imagem" data-aos="fade-left">
                 <img src="img/atleta.webp" alt="">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="planos" id="planos">
-        <div class="container">
+    <section class="planos" id="planos">
+        <div class="container" data-aos="fade-up">
             <h2>nossos planos</h2>
             <p>Venha descobrir o seu verdadeiro potencial e se tornar parte de uma comunidade que valoriza a excelência. Prepare-se para uma experiência que vai além do fitness, onde cada treino é uma oportunidade para se tornar mais forte, mais resistente e mais HardCore do que nunca. Você está pronto para desafiar seus limites?</p>
         
-            <div class="flex-cards">
-                <div class="card">
+            <div class="flex-cards" data-aos="zoom-in-down" data-aos-delay="300" data-aos-offset="0">
+                <article class="card">
                     <h3>plano mensal</h3>
                     <p>Ideal para você que está iniciando e ainda não descobriu o poder do crossfit</p>
                     <p class="preco">R$64,90</p>
@@ -99,9 +101,9 @@
 
                     <a href="#" class="btn btn-outline">contratar plano</a>
 
-                </div>
+                </article>
 
-                <div class="card destaque">
+                <article class="card destaque">
                     <h3>plano anual</h3>
                     <p>plano para quem já entendeu que o crossfit tem o poder de mudar sua vida</p>
                     <p class="preco">R$49,90</p>
@@ -115,9 +117,9 @@
                     </ul>
 
                     <a href="#" class="btn btn-outline">contratar plano</a>
-                </div>
+                </article>
 
-                <div class="card">
+                <article class="card">
                     <h3>plano semestral</h3>
                     <p>Já foi fisgado pelo crossfit e deseja entrar de vez nessa atividade incrível</p>
                     <p class="preco">R$54,90</p>
@@ -131,16 +133,16 @@
                     </ul>
 
                     <a href="#" class="btn btn-outline">contratar plano</a>
-                </div>
+                </article>
                 
 
             </div>
         
         </div>
     
-    </div>
+    </section>
 
-    <div class="fale-conosco" id="contato">
+    <section class="fale-conosco" id="contato" data-aos="zoom-out-up">
         <div class="container">
             <div class="conteudo">
                 <h2>fale com a Hard Core</h2>
@@ -156,9 +158,9 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.160964883986!2d-43.179155725741516!3d-22.907433037892087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f606640bb73%3A0x1ef710745c1fc7cc!2sAv.%20Rio%20Branco%2C%20185%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020040-007!5e0!3m2!1spt-BR!2sbr!4v1751459208134!5m2!1spt-BR!2sbr" width="1140" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>    
-    </div>
+    </section>
 
-    <div class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="conteudo">
                 <p>HardCore CrossFit é mais que uma academia. É um estilo de vida, um compromisso com a superação e a disciplina. Transforme seu corpo, sua mente e sua rotina. Vem ser HardCore com a gente!</p>
@@ -170,10 +172,17 @@
                 <a href="#"><img src="img/twitter.svg" alt=""></a>
             </div>
         </div>
-    </div>
+    </footer>
     
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once : true,
+        });
+    </script>
+    
     
 </body> 
 </html>
