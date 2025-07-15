@@ -10,7 +10,20 @@ function toggleMenu(){
     //console.log('Função acionada');
 
     menu.classList.toggle('show');
-
+    btnMenu.classList.toggle('x');
 }
 
+function removeMenu(){
+
+    menu.classList.remove('show');
+    btnMenu.classList.remove('x');
+}
+
+
+
+
+
+
 btnMenu.addEventListener('click',toggleMenu);
+
+menu.addEventListener('click',removeMenu);

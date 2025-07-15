@@ -14,12 +14,14 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
     font-family: "Teko", sans-serif;
     background-color: var(--primary);
     text-transform: uppercase;
+    overflow-x: hidden;
 }
 
 p{
@@ -76,7 +78,7 @@ img{
 }
 
 .btn:hover{
-    transform:scale(1.2);
+    transform:scale(1.05) ;
 }
 
 .btn-outline{
@@ -263,7 +265,7 @@ img{
 
 
 @media(max-width: 1100px){
-
+    
     h2{
         font-size: 32px;
     }
@@ -303,6 +305,22 @@ img{
         height: 3px;
         background-color: #ffffff;
         margin-bottom: 3px;
+        transition: 0.4s;
+    }
+
+    .x .barra:first-child{
+        transform: rotate(45deg) translate(5px, 4px);
+        transition-delay:0.2s;
+    }
+
+    .x .barra:nth-child(2){
+        opacity: 0;
+        transform: translateX(-250px); 
+    }
+
+    .x .barra:last-child{
+        transform: rotate(-45deg) translate(4px, -4px);
+        transition-delay:0.2s;
     }
 
     .hero h1{
